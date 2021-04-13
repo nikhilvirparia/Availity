@@ -49,12 +49,11 @@ public class Main {
 
         // Change this to scanner and ask user for String input
         // Not closed
-        System.out.println(checkBalance("[{]"));
+        System.out.println(checkBalance("[{["));
         // Nested
         System.out.println(checkBalance("{()}"));
         // Closed
         System.out.println(checkBalance("{Abcd}"));
-
 
     }
 }
